@@ -12,5 +12,6 @@ Pod::Spec.new do |spec|
 
   spec.platform     = :ios
   spec.ios.deployment_target = '13.0'
-
+  spec.source_files = 'GotadiVIB/*.{h,m}'
+  
 end
